@@ -1,6 +1,7 @@
 .wrap {
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 body {
     font-family: sans-serif;
@@ -72,8 +73,8 @@ p {
     background: rgba(134,176,34,1);
     text-transform: uppercase;
     position: absolute;
-    left: 520px;
-    top: 73px;
+    left: 190px;
+    top: 55px;
     color: #ffffff;
     border: 3px solid #ffffff;
 }
@@ -87,20 +88,21 @@ p {
     background: rgba(0,157,225,1);
     text-transform: uppercase;
     position: absolute;
-    right: 670px;
-    top: 73px;
+    right: 360px;
+    top: 55px;
     color: #ffffff;
     border: 3px solid #ffffff;
 
 }
 
-.a1 {
+.wrap .a1 {
     text-align: center;
     line-height:66px;
+    padding-left: 8px;
 }
 
-.t3 .a2,
-.t4 .a2{
+.wrap .a2,
+.wrap .a2{
     text-align: center;
     color: #ffffff;
     font-size:12px;
@@ -116,8 +118,8 @@ p {
     background: rgba(0,157,225,1);
     text-transform: uppercase;
     position: absolute;
-    right: 385px;
-    top: 73px;
+    right: 90px;
+    top: 55px;
     color: #ffffff;
     border: 3px solid #ffffff;
 
@@ -165,8 +167,8 @@ p {
     border-radius: 50%;
     border: 2px solid #c0c0c0;
     position: absolute;
-    left: 298px;
-    top: 198px;
+    left: -22px;
+    top: 178px;
     background: #ffffff;
 
 }
@@ -177,7 +179,7 @@ p {
     font-weight:normal;
     text-align: center;
     color: #c0c0c0;
-    padding-right: 3px;
+    padding-left: 9px;
     font-family: sans-serif;
 
 }
@@ -188,7 +190,7 @@ p {
     font-weight:normal;
     text-align: center;
     color: #c0c0c0;
-    padding-left: 3px;
+    padding-left: 10px;
     font-family: sans-serif;
 
 }
@@ -199,8 +201,8 @@ p {
     border-radius: 50%;
     border: 2px solid #c0c0c0;
     position: absolute;
-    right: 352px;
-    top: 198px;
+    right: 35px;
+    top: 178px;
     background: #ffffff;
 
 }
